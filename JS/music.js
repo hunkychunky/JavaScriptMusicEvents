@@ -1,4 +1,4 @@
-function removeTransition(event) {
+const removeTransition = event => {
     if (event.propertyName !== 'transform') return
     event.target.classList.remove('playing')
   }
